@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home prime</title>
+  </head>
+  <body>
+    <header class="home-header">
+        <div class="logo"><img src="./images/logo.png" alt="" class="logo-img"></div>
+        <nav id="nav-list">
+            <ul class="navbar" >
+                <div class="login-sm">
+                    <img src="./images/icons8-add-user-male-50.png" alt="">
+                    <a href="#" class="login-link-sm"> login</a>
+                </div>
+                <img src="./images/close2-removebg-preview.png" alt="" onclick="closeMenu()">
+                <li><a href="index.html">home</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+            </ul>  
+        </nav>
+        <div class="login">
+            <img src="./images/icons8-add-user-male-50.png" alt="">
+            <a href="#" class="login-link"> login</a>
+        </div>
+        <div class="menu" onclick="displayMenu()">
+            <div class="div1"></div>
+            <div class="div1"></div>
+            <div class="div1"></div>
+        </div>
+        
+    </header>
+    <div class="home">
+        <img src="./images/Banner.png" alt="">
+    </div>
+    <form class="search">
+        <input type="search" placeholder="search for service">
+        <img src="./images/arrow.png" alt="">
+    </form>
+    <div class="items-container">
+        <h1 class="items-head">categories</h1>
+        <img src="./images/down arrow.png" alt="" class="arrow" onclick="showList()" id="arrow-down">
+        <img src="./images/up_arrow-removebg-preview.png" alt="" id="arrow-up" onclick="menuClose()" class="arrow2">
+        <div class="program-list" id="program-items">
+            <ul>
+                <li><a href="#">electronics</a></li>
+                <li><a href="#">carpentry</a></li>
+                <li><a href="#">cleaning</a></li>
+                <li><a href="#">plumbing</a></li>
+                <li><a href="#">interior design</a></li>
+            </ul>
+        </div>
+     </div>
+    <section class="landpage" id="lander">  
+        <aside>
+            <h1>all categories</h1>
+           <h3>electronics </h3>
+           <h3>carpentry</h3>
+           <h3> cleaning </h3>
+           <h3> plumbing</h3>
+           <h3>interior design </h3>
+        </aside>
+            
+        <div class="content">
+            <h1 class="title">eletricity</h1>
+            <div class="section">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col " >
+                <div class="card h-30 my-card">
+                    <img src="./images/elect4.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-30 my-card">
+                    <img src="./images/elect3.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                   
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-60 my-card">
+                    <img src="./images/elect1.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="section">
+                <h1 class="title">carpentery</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col" >
+                    <div class="card h30 my-card">
+                    <img src="./images/carp1.jpg" class="card-img-top my-img " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    </div>
+                </div>
+                <div class="col my-col" >
+                    <div class="card h-30 my-card">
+                    <img src="./images/carp2.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="col my-col">
+                    <div class="card h-60 my-card">
+                    <img src="./images/carp3.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+    
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="section">
+                <h1 class="title">cleaning</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col my-col" >
+                    <div class="card h-30 my-card">
+                    <img src="./images/cleaner6.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="col my-col">
+                    <div class="card h-30 my-card">
+                    <img src="./images/cleaner4.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="col my-col">
+                    <div class="card h-60 my-card">
+                    <img src="./images/cleaner1.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="section">
+                <h1 class="title">plumbing</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col my-col" >
+                    <div class="card h-30 my-card">
+                    <img src="./images/cleaner2.jpg" class="card-img-top my-img " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="col my-col">
+                    <div class="card h-30 my-card">
+                    <img src="./images/plumber2.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="col my-col">
+                    <div class="card h-60 my-card">
+                    <img src="./images/plumber1.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="section">
+           <h1 class="title">interior designing</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col my-col" >
+                    <div class="card h-30 my-card">
+                    <img src="./images/interior3.jpg" class="card-img-top my-img " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="col my-col">
+                    <div class="card h-30 my-card">
+                    <img src="./images/interior2.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                <div class="col my-col">
+                    <div class="card h-60 my-card">
+                    <img src="./images/interior1.jpg" class="card-img-top my-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title my-title">Card title</h5>
+                    </div>
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>  
+</section>
+<footer>
+    <div class="footer">
+    <div class="foot1">
+        <a href="#">Be a pro</a>
+        <a href="#">About</a>
+        <a href="#">Contact us via</a>
+        <div class="social-links">
+            <img src="./images/ig.png" alt="">
+            <img src="./images/fb.png" alt="">
+            <img src="./images/gmail2_-_Copy-removebg-preview.png" alt="">
+            <img src="./images/twitter-removebg-preview.png" alt="">
+            <img src="./images/whatsapp-removebg-preview.png" alt="">
+        </div>
+    </div>
+    <div class="foot2">
+        <a href="#">Get home prime app</a>
+        <a href="#"><img src="./images/apple and google.png" alt=""></a>
+        <div class="sign-up">
+            <h1>to sign up</h1>
+            <input type="email" placeholder="enter your email">
+        </div>
+    </div>
+    <div class="foot3">
+        <h1>popular searches</h1>
+        <li><a href="#">Cleaning</a></li>
+        <li><a href="#">Is home prime an employer?</a></li>
+        <li><a href="#">Why download the app</a></li>
+        <li><a href="#">Interior design</a></li>
+        <li><a href="#">How much does a service cost?</a></li>
+    </div>
+</div>
+    <div class="copyright">
+        <h1>&copy copyright homeprime.com 2020/2021</h1>
+    </div>
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+<script src="./js/main.js"></script>
+  </body>
+</html>
