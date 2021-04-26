@@ -112,7 +112,7 @@ a:hover {
 }
 .phone-contact {
   display: flex;
-  width: 80%;
+  width: 85%;
   align-items: center;
   justify-content: flex-start;
   margin: 50px;
@@ -132,7 +132,7 @@ a:hover {
   background-color: black;
   font-size: 1rem;
   font-family: poppins;
-  margin-left: 18px;
+  margin-left: 10px;
 }
 .socials img {
   max-width: 100%;

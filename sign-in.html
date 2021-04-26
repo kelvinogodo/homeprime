@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/sign-in.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="home-header">
+        <div class="logo"><img src="./images/logo.png" alt="" class="logo-img"></div>
+        <nav id="nav-list">
+            <ul class="navbar" >
+                <div class="login-sm">
+                    <img src="./images/icons8-add-user-male-50.png" alt="" >
+                    <a href="#" class="login-link-sm" > login</a>
+                </div>
+                <img src="./images/close2-removebg-preview.png" alt="" onclick="closeMenu()" class="close-img">
+                <li><a href="index.html">home</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="home.html">services</a></li>
+            </ul>  
+        </nav>
+        <div class="login">
+            <img src="./images/icons8-add-user-male-50.png" alt="" onclick="openLogin()">
+            <a href="#" class="login-link"> login</a>
+        </div>
+        <div class="menu" onclick="displayMenu()">
+            <div class="div1"></div>
+            <div class="div1"></div>
+            <div class="div1"></div>
+        </div>  
+    </header>
+    <div class="form-container" id="form-cont" >
+        <form class="login-form" id="log">
+            <div class="login-header">
+                <h1>sign-up to <span class="prime">homeprime</h1></span>
+                <!-- <img src="./images/close-btn-removebg-preview.png" alt=""> -->
+            </div>
+            <div class="input-container">
+                <label for="text"> name</label>
+                <input type="text">
+                <label for="text"> email</label>
+                <input type="email">
+                <label for="text"> phone number</label>
+                <input type="text">
+                <label for="text"> password</label>
+                <input type="password">
+                <label for="text"> confirm password</label>
+                <input type="password"> 
+             </div>
+             <div class="submit">
+                 <button type="submit" class="submit-btn">
+                     submit
+                 </button>
+             </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="foot1">
+                <a href="#">Be a pro</a>
+                <a href="#">About</a>
+                <a href="#">Contact us via</a>
+                <div class="social-links">
+                    <img src="./images/ig.png" alt="">
+                    <img src="./images/fb.png" alt="">
+                    <img src="./images/gmail2_-_Copy-removebg-preview.png" alt="">
+                    <img src="./images/twitter-removebg-preview.png" alt="">
+                    <img src="./images/whatsapp-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="foot2">
+                <a href="#">Get home prime app</a>
+                <a href="#"><img src="./images/apple and google.png" alt=""></a>
+            </div>
+            <div class="foot3">
+                <h1>popular searches</h1>
+                <li><a href="#">Cleaning</a></li>
+                <li><a href="#">Is home prime an employer?</a></li>
+                <li><a href="#">Why download the app</a></li>
+                <li><a href="#">Interior design</a></li>
+                <li><a href="#">How much does a service cost?</a></li>
+            </div>
+        </div>
+        <div class="copyright">
+            <h1>&copy copyright homeprime.com 2020/2021</h1>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
