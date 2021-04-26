@@ -34,6 +34,7 @@ body {
   display: flex;
   /* position: absolute; */
   /* z-index: 300; */
+  border-radius: 5px;
 }
 .form-container::before {
   content: "";
@@ -133,31 +134,31 @@ label {
   font-family: roboto;
   font-weight: bold;
 }
-footer{
+footer {
   background: white;
 }
-@media screen and (max-width:769px){
-  body{
-    /* background: transparent; */
-  }
-  
-  .login-form{
-    width: 80%;
+@media screen and (max-width: 769px) {
+  .login-form {
+    width: 90%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
   }
-  .form-container::before{
+  .form-container::before {
     z-index: 1;
   }
-  .form-container,.form-container::before{
+  .form-container,
+  .form-container::before {
     width: 100%;
-    overflow-y:hidden ;
+    overflow-y: hidden;
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
   }
   .input-container {
-    width: 80%;
+    width: 90%;
+  }
+  .input-container input {
+    margin: 0px;
   }
 }
