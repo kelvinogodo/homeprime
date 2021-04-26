@@ -224,7 +224,7 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-label{
+label {
   font-family: roboto;
   font-size: 1.2rem;
   text-transform: capitalize;
@@ -339,7 +339,7 @@ footer {
   font-weight: 500;
   text-transform: none;
 }
-.foot3 h1{
+.foot3 h1 {
   font-family: roboto;
 }
 .foot2 img {
@@ -368,9 +368,8 @@ footer {
   justify-content: space-around;
   width: 100%;
   font-family: roboto;
- 
 }
-.sign-up h1{
+.sign-up h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -436,8 +435,11 @@ footer {
   justify-content: center;
 }
 @media screen and (max-width: 1200px) {
-  header {
+  .home-header {
     justify-content: space-between;
+    height: auto;
+    z-index: 1000;
+    min-height: 15vh;
   }
   nav {
     position: fixed;
@@ -512,39 +514,44 @@ footer {
     display: block;
     cursor: pointer;
   }
-  .landpage{
+  .landpage {
     flex-wrap: wrap;
     height: auto;
     flex-direction: column-reverse;
   }
-  .contact-info{
+  .contact-info {
     width: 100%;
     max-width: 100%;
+    height: auto;
   }
-  .contact-info h1{
+  .contact-info h1 {
     font-size: 1.3rem;
   }
-  .contact{
+  .contact {
     width: 100%;
-    height: 120vh;
+    height: auto;
   }
   .contact-form {
     max-width: 100%;
     height: 100%;
   }
-  .contact-form input{
-    font-size: .9rem;
+  .contact-form input {
+    font-size: 0.9rem;
+    margin-top: 30px;
   }
-  .phone-contact{
+  label {
+    margin: 20px;
+  }
+  .phone-contact {
     max-width: 90%;
   }
-  textarea{
-    max-width: 100%;
+  textarea {
+    max-width: 80%;
   }
-  .location{
+  .location {
     width: 100%;
   }
-  .location-title h2{
+  .location-title h2 {
     width: 100%;
   }
   .footer {

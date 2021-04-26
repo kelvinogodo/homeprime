@@ -193,7 +193,6 @@ nav {
   line-height: 30px;
 }
 .services {
-  width: 100%;
   display: flex;
   align-items: center;
   height: auto;
@@ -586,12 +585,6 @@ p {
   }
   .services {
     flex-wrap: wrap;
-    width: 100%;
-    padding-left: 0px;
-  }
-  .cardy{
-    width: 80%;
-    margin-top: 15px;
   }
   .service-title {
     text-align: center;
