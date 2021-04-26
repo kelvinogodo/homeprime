@@ -19,14 +19,15 @@ function displayMenu(){
    };
 
    // form validation section
-var name=document.getElementById('name-input');
-var email=document.getElementById('email-input');
-var phoneNumber=document.getElementById('phone-number-input');
-var password=document.getElementById('password-input');
-var confirmPassword=document.getElementById('confirm-password-input');
+// var name=document.getElementById('name-input');
+// var email=document.getElementById('email-input');
+// var phoneNumber=document.getElementById('phone-number-input');
+// var password=document.getElementById('password-input');
+// var confirmPassword=document.getElementById('confirm-password-input');
 var allInputs=document.querySelectorAll('.inputs');
 
 
+// form validation section
 
 function formValidate(){
     for (var i=0 ; i <= allInputs.length; i++){

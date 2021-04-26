@@ -538,6 +538,9 @@ p {
     padding: 10px;
     margin-top: -20px;
   }
+  .cardy{
+    margin-top: 20px;
+  }
 
   .close-img {
     height: 40px;
