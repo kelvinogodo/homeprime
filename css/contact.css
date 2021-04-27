@@ -424,6 +424,7 @@ footer {
   font-size: 1.3rem;
   font-family: roboto;
   color:white;
+  padding: 10px;
   cursor: pointer;
 }
 .copyright {

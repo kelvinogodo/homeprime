@@ -24,6 +24,7 @@ function displayMenu(){
 // var phoneNumber=document.getElementById('phone-number-input');
 // var password=document.getElementById('password-input');
 // var confirmPassword=document.getElementById('confirm-password-input');
+var form=document.getElementById('log');
 var allInputs=document.querySelectorAll('.inputs');
 
 
@@ -46,7 +47,7 @@ function formValidate(){
 }
 
 // calling the function on form submit
-document.getElementById('log').addEventListener('onsubmit',formValidate());
+document.getElementById('log').addEventListener('onsubmit',formValidate);
 
 // var myCol=document.querySelector('.my-col');
 // console.log(myCol);
