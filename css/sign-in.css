@@ -42,15 +42,11 @@ body {
   height: 140vh;
   position: absolute;
   background-image: url(../images/interior5.jpg);
-  /* background: white; */
   background-position: center;
   filter: blur(12px);
   object-fit: cover;
   background-repeat: no-repeat;
   z-index: -1;
-  /* display: none; */
-  /* top: 0;
-  left: 0; */
   overflow-y: hidden;
 }
 
@@ -82,11 +78,11 @@ body {
   text-indent: 5px;
   background: black;
   outline: none;
-  border: 1px solid rgba(114, 110, 110, 0.637);
-  /* z-index: 100; */
   font-family: roboto;
   font-size: 1rem;
   background-color: transparent;
+  box-shadow: inset 0px 1px 5px rgba(145, 142, 142, 0.815) ;
+  border: none;
 }
 .prime {
   color: rgb(0, 140, 255);
@@ -137,7 +133,7 @@ label {
 footer {
   background: white;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 900px) {
   .login-form {
     width: 90%;
     padding-top: 10px;
@@ -160,5 +156,7 @@ footer {
   }
   .input-container input {
     margin: 0px;
+    box-shadow: inset 0px 0px 4px rgba(121, 118, 118, 0.815) ;
+    border: none;
   }
 }

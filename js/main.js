@@ -1,4 +1,4 @@
-// display menu section
+// // display menu section
 function displayMenu(){
     document.getElementById('nav-list').style.width='280px';
    };
@@ -18,7 +18,7 @@ function displayMenu(){
     document.getElementById('arrow-up').style.width='0px';
    };
 
-   // form validation section
+//    // form validation section
 // var name=document.getElementById('name-input');
 // var email=document.getElementById('email-input');
 // var phoneNumber=document.getElementById('phone-number-input');
@@ -44,6 +44,7 @@ function formValidate(){
 // calling the function on form submit
 document.getElementById('log').addEventListener('onsubmit',formValidate());
 
-
+// var myCol=document.querySelector('.my-col');
+// console.log(myCol);
 
 

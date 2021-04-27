@@ -4,7 +4,7 @@ function scrollApear(){
     
     var textPosition=text.getBoundingClientRect().top;
     
-    var screenPosition=window.innerHeight;
+    var screenPosition=window.innerHeight/2;
     
         if(textPosition < screenPosition){
             text.classList.add('animation');

@@ -178,10 +178,10 @@ a:hover {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   padding: 15px;
-  background-color: rgba(134, 131, 131, 0.836);
+  /* background-color: rgba(134, 131, 131, 0.836); */
 }
 .gmail {
   display: flex;
@@ -201,33 +201,40 @@ a:hover {
   object-fit: contain;
 }
 .contact-form input {
-  width: 65%;
-  height: 50px;
-  border-radius: 10px;
-  text-align: center;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: left;
+  text-indent: 10px;
   font-size: 1rem;
   font-family: roboto;
   text-transform: capitalize;
   outline: none;
   border: none;
   background-color: white;
-  box-shadow: 0px 0px 2px rgb(32, 32, 32);
+  box-shadow:  inset 0px 0px 5px rgb(128, 125, 125) ;
+  border: none;
 }
 textarea {
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
   font-family: roboto;
   font-size: 1rem;
-  box-shadow: 0px 0px 2px rgb(75, 72, 72);
+  box-shadow:  inset 0px 0px 7px rgb(160, 158, 158) ;
+  border: none;
   outline: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 60%;
 }
 label {
   font-family: roboto;
   font-size: 1.2rem;
   text-transform: capitalize;
+  opacity: .7;
+  width: 60%;
+  margin: 10px;
 }
 
 .location {
@@ -252,12 +259,7 @@ label {
   font-size: 2rem;
   text-transform: capitalize;
 }
-/* .location-title img {
-  height: 100px;
-  width: 100px;
-  object-fit: contain;
-  max-width: 100%;
-} */
+
 address {
   background-color: black;
   width: 100%;
@@ -413,11 +415,15 @@ footer {
   height: 40px;
   margin-top: 10px;
   border-radius: 5px;
+  background-color: rgba(34, 117, 185, 0.842);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   outline: none;
-  border: 2px solid rgb(9, 96, 209);
+  border: none;
   font-size: 1.3rem;
   font-family: roboto;
-  color: rgb(9, 96, 209);
+  color:white;
   cursor: pointer;
 }
 .copyright {
@@ -537,16 +543,25 @@ footer {
   }
   .contact-form input {
     font-size: 0.9rem;
-    margin-top: 30px;
+    box-shadow: inset 0px 1px 5px rgba(116, 113, 113, 0.815) ;
+  border: none;
+  width: 80%;
+  border-radius: 5px;
   }
   label {
-    margin: 20px;
+    margin: 10px;
+    text-align: left;
+    width: 80%;
+    opacity: .7;
+    
   }
   .phone-contact {
     max-width: 90%;
   }
   textarea {
-    max-width: 80%;
+    width: 80%;
+    max-width: 100%;
+    border-radius: 5px;
   }
   .location {
     width: 100%;
