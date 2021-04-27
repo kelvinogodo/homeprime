@@ -30,16 +30,20 @@ var allInputs=document.querySelectorAll('.inputs');
 // form validation section
 
 function formValidate(){
-    for (var i=0 ; i <= allInputs.length; i++){
-        if(allInputs.value=""){
-            console.log('enter the vacant fields');
+    var allFilled = true;
+    for (var i=0 ; i < allInputs.length; i++){
+        if(allInputs[i].value.trim() == ""){
+            allFilled = false;
         }
-        else{
-            console.log('your form was succesfully submitted');
-        }
-
     }
-};
+    
+    if(!allFilled){
+        console.log('enter the vacant fields');
+    }
+    else{
+        console.log('your form was succesfully submitted');
+    }
+}
 
 // calling the function on form submit
 document.getElementById('log').addEventListener('onsubmit',formValidate());
