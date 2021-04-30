@@ -584,6 +584,16 @@ h2 {
     margin-bottom: 0%;
     height: auto;
   }
+  .item-head-container{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background-color: red; */
+    overflow-x: hidden;
+  }
   .items-head {
     display: block;
     position: relative;
