@@ -27,7 +27,7 @@
   text-transform: capitalize;
   font-family: varela;
 }
-.us-prime{
+.us-prime {
   color: rgb(0, 140, 255);
   text-transform: capitalize;
   font-family: varela;
@@ -431,6 +431,9 @@ h2 {
 }
 
 @media screen and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
   .home-header {
     position: sticky;
     z-index: 50;
@@ -534,7 +537,7 @@ h2 {
   .home img {
     border-radius: 0px;
   }
-  .prime{
+  .prime {
     display: block;
   }
   .wave-container {
@@ -550,10 +553,9 @@ h2 {
   .welcome-text {
     width: 100%;
     margin-top: 20px;
-   
   }
-  .welcome-text h1{
-    text-align:left ;
+  .welcome-text h1 {
+    text-align: left;
     width: 80%;
     margin-bottom: 20px;
   }
@@ -588,19 +590,19 @@ h2 {
     font-family: varela;
     font-size: 1.7rem;
     margin: auto;
-    max-width: 100%;
+    max-width: 80%;
   }
   .items-head::after {
     content: "";
-    width: 100px;
+    width: 50%;
     height: 2px;
     background-color: rgb(125, 187, 207);
     position: absolute;
     top: 20px;
   }
   .items-head::before {
-    content: "";
-    width: 100px;
+    content: " ";
+    width: 50%;
     height: 2px;
     background-color: rgb(125, 187, 207);
     position: absolute;
