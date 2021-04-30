@@ -11,7 +11,7 @@
   align-items: center;
   background: black;
   width: 100%;
-  height: 15vh;
+  height: auto;
   top: 0;
   padding-bottom: 10px;
   position: sticky;
@@ -99,46 +99,38 @@ a {
   text-transform: capitalize;
   font-family: varela, sans-serif;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 a:hover {
   color: white;
 }
 
 .items-head {
-  display: none;
+  display: block;
+  font-size: 2rem;
+  text-transform: capitalize;
+  position: relative;
+}
+.items-head::after {
+  content: "";
+  width: 500px;
+  height: 2px;
+  background-color: rgb(125, 187, 207);
+  position: absolute;
+  top: 20px;
+  left: 185px;
+}
+.items-head::before {
+  content: "";
+  width: 500px;
+  height: 2px;
+  background-color: rgb(125, 187, 207);
+  position: absolute;
+  top: 20px;
+  right: 185px;
 }
 .arrow-container {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-.arrow2 {
   display: none;
-}
-.arrow-style {
-  width: 60px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 40%;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  border: 3px solid rgb(125, 187, 207);
-  box-shadow: 0px 5px 10px rgb(131, 128, 128);
-}
-.arrow {
-  height: 30px;
-  width: 30px;
-  display: block;
-  z-index: 4;
-  object-fit: contain;
-  transition: all 0.2s ease-in;
-  background-color: white;
-  border-radius: 50%;
 }
 .home {
   display: flex;
@@ -165,7 +157,7 @@ p {
   width: 80%;
 }
 .wave-container {
-  height: 90vh;
+  height: auto;
   /* background-image: url(../images/wave.svg); */
   background-repeat: no-repeat;
   background-position: center;
@@ -180,7 +172,8 @@ p {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  height: 80%;
+  height: auto;
+  margin-bottom: 80px;
 }
 .search {
   z-index: 1;
@@ -240,7 +233,7 @@ aside h3 {
   text-transform: capitalize;
   text-align: left;
   width: 50%;
-  font-family: exo;
+  font-family: roboto;
 }
 .content {
   width: 100%;
@@ -543,9 +536,11 @@ h2 {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
+    margin-top: 20px;
   }
   .welcome-text {
     width: 100%;
+    margin-top: 20px;
   }
   .why-choose-us {
     align-items: flex-start;
@@ -571,12 +566,27 @@ h2 {
   }
   .items-head {
     display: block;
+    position: relative;
+    font-family: varela;
+    font-size: 1.7rem;
   }
   .items-head::after {
     content: "";
-    width: 100px;
-    height: 10px;
-    background-color: black;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(125, 187, 207);
+    position: absolute;
+    top: 20px;
+    left: 165px;
+  }
+  .items-head::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(125, 187, 207);
+    position: absolute;
+    top: 20px;
+    right: 165px;
   }
   .items-container {
     padding-top: 10px;
@@ -584,6 +594,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: auto;
   }
   .program-list {
     margin-bottom: 0;
@@ -601,7 +612,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    height: 100%;
+    height: auto;
     transition: all 0.5s ease;
     text-align: left;
     list-style: none;
@@ -612,6 +623,9 @@ h2 {
   }
   .items-container h1 {
     display: block;
+  }
+  .arrow-container {
+    display: flex;
   }
 
   .arrow-style {

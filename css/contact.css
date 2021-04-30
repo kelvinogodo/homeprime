@@ -181,7 +181,6 @@ a:hover {
   justify-content: center;
   flex-direction: column;
   padding: 15px;
-  /* background-color: rgba(134, 131, 131, 0.836); */
 }
 .gmail {
   display: flex;

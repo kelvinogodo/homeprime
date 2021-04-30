@@ -346,7 +346,7 @@ p {
 .footer {
   height: 70vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.315);
+  background-color:  rgb(125, 187, 207);
   bottom: 0;
   position: static;
   display: flex;
