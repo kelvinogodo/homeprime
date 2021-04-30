@@ -112,18 +112,15 @@ nav {
   color: rgb(0, 140, 255);
   text-transform: capitalize;
 }
-.my-card {
-  box-shadow: 0px 0px 15px rgb(160, 157, 157), 0px 0px 15px rgb(204, 199, 199);
-  text-align: center;
-  height: 400px;
-}
-.my-card:hover {
-  box-shadow: 5px 10px 15px rgb(207, 204, 204),
-    -5px -10px 15px rgb(224, 222, 222);
-}
+
 .cardy {
   width: 40%;
   height: 260px;
+  box-shadow: 0px 0px 15px rgb(185, 182, 182), 0px 0px 15px rgb(201, 199, 199);
+}
+.cardy:hover:hover {
+  box-shadow: 5px 10px 15px rgb(207, 204, 204),
+    -5px -10px 15px rgb(224, 222, 222);
 }
 .service-card1,
 .service-card2 {

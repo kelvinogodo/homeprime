@@ -4,6 +4,7 @@
   padding: 0px;
   margin: 0px;
 }
+
 .home-header {
   display: flex;
   justify-content: space-around;
@@ -20,6 +21,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.prime {
+  color: rgb(0, 140, 255);
+  text-transform: capitalize;
+  font-family: varela;
+}
+
+.why-choose-us {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why-choose-us h1:hover {
+  background-color: rgba(54, 135, 201, 0.521);
+  color: white;
+}
+.why-choose-us h1 {
+  padding: 5px;
+  border-radius: 20px;
+  border: 2px solid rgba(54, 135, 201, 0.521);
+  width: 50%;
+  font-size: 1.5rem;
 }
 .login-img1 {
   height: 60px;
@@ -72,58 +97,125 @@ a {
   margin-left: 15px;
   text-decoration: none;
   text-transform: capitalize;
-  font-family: roboto, sans-serif;
+  font-family: varela, sans-serif;
   color: white;
   font-size: 1rem;
 }
 a:hover {
   color: white;
 }
-.home {
-  width: 100%;
-  height: 80vh;
-  position: relative;
+
+.items-head {
+  display: none;
 }
-.home::before {
-  content: "";
+.arrow-container {
+  display: flex;
   width: 100%;
-  height: 80vh;
-  background-color: rgba(61, 58, 58, 0.966);
-  mix-blend-mode: overlay;
-  position: absolute;
-  opacity: 0.9;
-  max-height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.arrow2 {
+  display: none;
+}
+.arrow-style {
+  width: 60px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 40%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  border: 3px solid rgb(125, 187, 207);
+  box-shadow: 0px 5px 10px rgb(131, 128, 128);
+}
+.arrow {
+  height: 30px;
+  width: 30px;
+  display: block;
+  z-index: 4;
+  object-fit: contain;
+  transition: all 0.2s ease-in;
+  background-color: white;
+  border-radius: 50%;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-right: 40px;
+}
+.home img {
+  height: auto;
+  width: 60%;
+  border-radius: 0px 0px 30px 30px;
+}
+.welcome-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  font-family: varela;
+}
+.welcome-text h1,
+p {
+  width: 80%;
+}
+.wave-container {
+  height: 90vh;
+  /* background-image: url(../images/wave.svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 80%;
 }
 .search {
   z-index: 1;
-  height: 200px;
-  width: 50%;
-  background-color: rgba(90, 87, 87, 0.829);
-  border-radius: 20px;
+  height: auto;
+  width: 33%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  border-radius: 10px;
+  background-color: rgb(98, 151, 182);
 }
 .search input {
   width: 400px;
   height: 60px;
   border-radius: 10px 0px 0px 10px;
-  text-align: center;
+  text-align: left;
   font-size: 1.3rem;
   font-family: roboto;
   outline: none;
-  border: 1px solid black;
+  border: none;
+  max-width: 100%;
+  background-color: transparent;
+  color: white;
+  box-shadow: inset 0px -4px 7px #ddd;
 }
 .search img {
   border-radius: 0px 10px 10px 0px;
   height: 60px;
   width: 60px;
   object-fit: contain;
-  border: 1px solid black;
-  padding: 3px;
-  background-color: white;
+  background-color: rgb(70, 177, 240);
+  /* border: 1px solid black; */
+  padding: 5px;
 }
 .home img {
   width: 100%;
@@ -148,6 +240,7 @@ aside h3 {
   text-transform: capitalize;
   text-align: left;
   width: 50%;
+  font-family: exo;
 }
 .content {
   width: 100%;
@@ -171,15 +264,13 @@ aside h3 {
   height: auto;
   max-width: 100%;
 }
-.arrow {
-  display: none;
-}
-h1 {
-  font-family: poppins;
+
+aside h1 {
+  font-family: varela;
   text-transform: capitalize;
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(36, 133, 172);
+  color: rgb(32, 112, 204);
 }
 
 h2 {
@@ -227,8 +318,8 @@ h2 {
   text-align: left;
   font-size: 1.3rem;
   text-transform: uppercase;
-  color: rgb(32, 112, 204);
-  font-family: roboto;
+  color: rgb(36, 133, 172);
+  font-family: varela;
   font-weight: bold;
   margin: 25px;
 }
@@ -243,7 +334,7 @@ h2 {
 .footer {
   height: 70vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.315);
+  background-color: rgb(125, 187, 207);
   bottom: 0;
   position: static;
   display: flex;
@@ -438,6 +529,35 @@ h2 {
   .search img {
     height: 100%;
   }
+  .home {
+    width: 100%;
+    padding: 0%;
+  }
+  .home img {
+    border-radius: 0px;
+  }
+  .wave-container {
+    height: auto;
+  }
+  .welcome-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .welcome-text {
+    width: 100%;
+  }
+  .why-choose-us {
+    align-items: flex-start;
+    margin: 20px;
+    margin-right: auto;
+  }
+  .why-choose-us h1 {
+    font-size: 1.2rem;
+  }
+  .arrow-container {
+    height: auto;
+  }
   aside {
     display: none;
   }
@@ -448,6 +568,15 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0%;
     height: auto;
+  }
+  .items-head {
+    display: block;
+  }
+  .items-head::after {
+    content: "";
+    width: 100px;
+    height: 10px;
+    background-color: black;
   }
   .items-container {
     padding-top: 10px;
@@ -484,23 +613,37 @@ h2 {
   .items-container h1 {
     display: block;
   }
+
+  .arrow-style {
+    width: 60px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 40%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border: 3px solid rgb(125, 187, 207);
+    box-shadow: 0px 5px 10px rgb(131, 128, 128);
+  }
   .arrow {
     height: 30px;
     width: 30px;
     display: block;
-    margin-left: 10px;
     z-index: 4;
     object-fit: contain;
     transition: all 0.2s ease-in;
+    background-color: white;
+    border-radius: 50%;
   }
   .arrow2 {
     height: 30px;
     width: 0px;
     display: block;
-    margin-left: 10px;
     z-index: 4;
     object-fit: contain;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     margin-left: 0px;
     cursor: pointer;
     transition: all 0.2s ease-in;
