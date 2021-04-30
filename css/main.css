@@ -75,6 +75,7 @@ nav {
 }
 .land-card {
   height: auto;
+  border-radius: 0%;
 }
 /* .land-card::before {
   content: "";
@@ -100,7 +101,6 @@ nav {
   text-align: center;
   font-size: 1.5rem;
   display: block;
-  font-family: roboto;
 }
 .land-card-img {
   width: 100%;
