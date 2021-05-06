@@ -60,7 +60,7 @@ a {
   margin-left: 15px;
   text-decoration: none;
   text-transform: capitalize;
-  font-family: roboto, sans-serif;
+  font-family:varela, sans-serif;
   color: white;
   font-size: 1rem;
 }
@@ -103,7 +103,7 @@ a:hover {
 }
 .socials h3 {
   font-size: 1rem;
-  font-family: roboto;
+  font-family: varela;
   text-transform: lowercase;
   font-weight: 100;
   text-align: left;
@@ -153,9 +153,10 @@ a:hover {
 }
 .contact-info h1 {
   font-size: 2rem;
-  font-family: poppins;
+  font-family: varela;
   text-align: center;
   color: rgba(34, 117, 185, 0.842);
+  width: 80%;
 }
 .contact-info p {
   font-size: 1rem;
@@ -282,7 +283,7 @@ footer {
 .footer {
   height: 70vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.315);
+  background-color: rgb(125, 187, 207);
   bottom: 0;
   position: static;
   display: flex;
