@@ -40,13 +40,15 @@
   justify-content: flex-start;
 }
 .why-choose-us h1:hover {
-  border-bottom: 2px solid rgb(0, 140, 255);
+  border-bottom: 1px solid rgb(0, 140, 255);
   cursor: pointer;
+  transition: 1s ease all;
 }
 .why-choose-us-h1 {
   text-transform: capitalize;
   font-size: 1.5rem;
   max-width: 360px;
+  border-bottom: 0px solid black;
 }
 .welcome-text {
   display: flex;
@@ -61,7 +63,9 @@
   color: black;
   text-align: left;
   line-height: 25px;
+  word-spacing: 5px;
   margin: 20px;
+  font-family: roboto;
 }
 
 .login-img1 {

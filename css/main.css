@@ -15,6 +15,7 @@ header {
   top: 0;
   z-index: 100;
 }
+
 nav {
   width: 80%;
   display: flex;
@@ -22,6 +23,7 @@ nav {
   align-items: center;
   height: 100%;
 }
+
 .navbar {
   display: flex;
   align-items: center;
@@ -50,6 +52,7 @@ nav {
   padding-left: 30px;
   height: 100%;
 }
+
 .login-img1 {
   height: 60px;
   width: 60px;
@@ -58,9 +61,11 @@ nav {
   background-color: black;
   border-radius: 50%;
 }
+
 .login-img1:hover {
   background-color: rgb(56, 51, 51);
 }
+
 .login-img2 {
   height: 60px;
   width: 100px;
@@ -111,16 +116,20 @@ nav {
   height: 100%;
   font-family: varela;
 }
+
 .welcome-text-h1,
 p {
   width: 80%;
   color: black;
+  font-family: varela;
 }
+
 .welcome-text p{
   color: black;
   text-align: left;
   line-height: 30px;
   margin: 40px;
+  font-family: roboto;
 }
 .wave-container {
   height: auto;
